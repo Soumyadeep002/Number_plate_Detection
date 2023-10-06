@@ -1,0 +1,6 @@
+path: E:\My Projects\Number Plate detection\charecter_detection\data
+train: images\train
+val: images\train
+
+names:
+  0: charecter

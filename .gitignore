@@ -2,4 +2,6 @@ myvenv/
 runs/
 all_data/
 data/
-charecter_detection/
+charecter_detection/all_data/
+charecter_detection/data/
+
