@@ -7,3 +7,6 @@ In every parking area, a lot of bikes and cars are check in and out. For a secur
 
 To maintain a logbook of all vehicles and prevent the overspeeding on the roads, its need to track the vehicle automatically. To track the vehicles, the only way is to track the Licence/Number plate of the vehicle to get all correspondin details.
 
+<p align="center"><img title="a title" width="400" alt="Sample Image" src="assets/img1.jpeg"></p>
+
+<!-- ![Alt text](assets/img1.jpeg "a title") -->
