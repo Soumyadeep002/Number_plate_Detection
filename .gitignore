@@ -1,8 +1,8 @@
-myvenv/
-runs/
-all_data/
-data/
-charecter_detection/all_data/
-charecter_detection/data/
-charecters/
+model/myvenv/
+model/runs/
+model/all_data/
+model/data/
+model/charecter_detection/all_data/
+model/charecter_detection/data/
+model/charecters/
 
