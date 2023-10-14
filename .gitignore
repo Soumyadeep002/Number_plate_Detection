@@ -5,4 +5,5 @@ model/data/
 model/charecter_detection/all_data/
 model/charecter_detection/data/
 model/charecters/
+frontend/node_modules/
 
