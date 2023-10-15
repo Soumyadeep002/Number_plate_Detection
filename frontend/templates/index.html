@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='/css/build.css') }}"> -->
-
     <!-- main css  -->
-    <link rel="stylesheet" href="../static/css/build.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/build.css') }}">
+
+    <!-- <link rel="stylesheet" href="../static/css/build.css"> -->
 
     <title>Dashboard</title>
     
@@ -24,10 +24,10 @@
     <div class="flex flex-col lg:flex-row gap-8 w-[90%] mx-auto mt-[2.5%]">
         <div class="left w-full lg:w-3/5 ">
             <div class="aspect-video  bg-blue-950 dark:bg-slate-500 transition-colors duration-1000 ">
-                <ion-icon name="videocam-off" size="large" class="dark:text-black text-white transition-colors duration-1000 p-10"></ion-icon>
-                <div class="text w-full text-white text-center ">Main Video</div>
+                <!-- <ion-icon name="videocam-off" size="large" class="dark:text-black text-white transition-colors duration-1000 p-10"></ion-icon> -->
+                <!-- <div class="text w-full text-white text-center ">Main Video</div> -->
 
-                <!-- <img class="aspect-video" src="{{ url_for('video') }}" width="100%"/> -->
+                <img class="aspect-video" src="{{ url_for('main_video') }}" width="100%"/>
 
             </div>
             
@@ -35,10 +35,10 @@
         <div class="right w-full lg:w-2/5 ">
             <div class="title text-3xl text-white bg-blue-600 dark:bg-white transition-colors duration-1000 dark:text-blue-900 font-bold text-center w-full py-3">Number Plate Image</div>
             <div class="aspect-video bg-blue-950 dark:bg-slate-500 transition-colors duration-1000">
-                <ion-icon name="videocam-off" size="large" class="dark:text-black text-white transition-colors duration-1000 p-10"></ion-icon>
-                <div class="text w-full text-white text-center">License PLate Image/frame</div>
+                <!-- <ion-icon name="videocam-off" size="large" class="dark:text-black text-white transition-colors duration-1000 p-10"></ion-icon> -->
+                <!-- <div class="text w-full text-white text-center">License PLate Image/frame</div> -->
 
-                <!-- <img class="aspect-video" src="{{ url_for('video') }}" width="100%"/> -->
+                <img class="aspect-video" src="{{ url_for('plate_video') }}" width="100%"/>
                 
             </div>
         </div>
@@ -60,8 +60,8 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <!-- javascipts -->
-    <script src="../static/js/script.js"></script>
-    <!-- <script src="{{ url_for('static', filename='/js/script.js') }}"></script> -->
+    <!-- <script src="../static/js/script.js"></script> -->
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
 
 </body>
 
