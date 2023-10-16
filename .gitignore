@@ -9,3 +9,13 @@ frontend/node_modules/
 frontend/__pycache__/
 frontend/artifacts/
 frontend/frame.jpg
+runs/
+model/plate_detection_try_1/
+model/plate_detection_try_2/
+model/plate_detection_try_3/
+model/keras_ocr/
+model/val/
+model/myenv/
+model/test.ipynb
+frame.jpg
+frame2.jpg

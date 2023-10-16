@@ -1,4 +1,4 @@
-path: E:\My Projects\Number Plate detection\charecter_detection\data
+path: E:\My Projects\Number Plate detection\model\charecter_detection\data
 train: images\train
 val: images\train
 

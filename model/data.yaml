@@ -1,6 +1,6 @@
-path: E:\My Projects\Number Plate detection\data
+path: E:\My Projects\Number Plate detection\model\data
 train: images\train
-val: images\train
+val: images\val
 
 names:
   0: Front Plate
