@@ -9,11 +9,11 @@ import os
 
 
 
-model = YOLO("best.pt")
-char_model = YOLO("charecter_detection\\try1\\weights\\best.pt")
+model = YOLO("plate_detection_try_2\\weights\\best.pt")
+char_model = YOLO("charecter_detection\\try2\\weights\\best.pt")
 
 
-dir = "test_images"
+dir = "all_data\\New Data 2"
 file_list = os.listdir(dir)
 
 for i in file_list:

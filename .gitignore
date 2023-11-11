@@ -3,6 +3,8 @@ model/runs/
 model/all_data/
 model/data/
 model/charecter_detection/all_data/
+model/charecter_detection/all_data/New Data
+model/charecter_detection/all_data/New Data 2
 model/charecter_detection/data/
 model/charecters/
 frontend/node_modules/
@@ -13,6 +15,7 @@ runs/
 model/plate_detection_try_1/
 model/plate_detection_try_2/
 model/plate_detection_try_3/
+model/plate_detection_try_4/
 model/keras_ocr/
 model/val/
 model/myenv/

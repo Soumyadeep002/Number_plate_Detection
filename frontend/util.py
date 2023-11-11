@@ -5,9 +5,7 @@ import matplotlib.pyplot as plt
 import easyocr
 reader = easyocr.Reader(['ch_sim','en'])
 
-model = YOLO("frontend\\artifacts\\detection\\best.pt")
-
-
+model = YOLO("artifacts\\detection\\best.pt")
 
 def detect_number_plate(img_path):
     frame = cv2.imread(img_path)
@@ -75,5 +73,4 @@ def get_text_from_image(image_path):
 
 if __name__ == '__main__':
 
-    print(get_text_from_image("mybike.jpeg"))
-
+    print(get_text_from_image(""))
